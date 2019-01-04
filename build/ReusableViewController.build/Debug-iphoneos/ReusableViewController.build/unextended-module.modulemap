@@ -1,0 +1,10 @@
+framework module ReusableViewController {
+  umbrella header "ReusableViewController.h"
+
+  export *
+  module * { export * }
+}
+
+module ReusableViewController.__Swift {
+    exclude header "ReusableViewController-Swift.h"
+}

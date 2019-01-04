@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/am7/Library/Developer/Xcode/DerivedData/ReusableViewController-fcbuevlkfjiwihgzfgzmnvfxolgb/Build/Products/Debug-iphonesimulator/ReusableViewController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ReusableViewController-Swift.h",
+          'external-contents': "/Users/am7/Library/Developer/Xcode/DerivedData/ReusableViewController-fcbuevlkfjiwihgzfgzmnvfxolgb/Build/Products/Debug-iphonesimulator/ReusableViewController.framework/Headers/ReusableViewController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ReusableViewController.h",
+          'external-contents': "/Users/am7/Documents/ReusableViewController/ReusableViewController/ReusableViewController.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/am7/Library/Developer/Xcode/DerivedData/ReusableViewController-fcbuevlkfjiwihgzfgzmnvfxolgb/Build/Products/Debug-iphonesimulator/ReusableViewController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/am7/Documents/ReusableViewController/build/ReusableViewController.build/Debug-iphonesimulator/ReusableViewController.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

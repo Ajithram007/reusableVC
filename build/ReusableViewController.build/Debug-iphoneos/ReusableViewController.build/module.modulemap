@@ -1,0 +1,11 @@
+framework module ReusableViewController {
+  umbrella header "ReusableViewController.h"
+
+  export *
+  module * { export * }
+}
+
+module ReusableViewController.Swift {
+    header "ReusableViewController-Swift.h"
+    requires objc
+}
