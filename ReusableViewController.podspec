@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Ajithram007/reusableVC.git", :tag => "1.0.0" }
+  s.source = { :git => "https://github.com/Ajithram007/reusableVC.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
 
   #s.source_files  = 'Classes/*.{h,m,swift}'
 
-  s.source_files  = "ReusableViewController/Classes/**/*"
+  s.source_files = "ReusableViewController/.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
