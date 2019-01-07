@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
 
   #s.source_files  = 'Classes/*.{h,m,swift}'
 
-  s.source_files = "ReusableViewController/.{h,m,swift}"
+  s.source_files = "ReusableViewController/**/*.{swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
