@@ -9,6 +9,6 @@
 import  Foundation
 open class SampleViewController: NSObject {
     open class func test(msg:String){
-        print(msg)
+        print(msg + "hello from mars!")
     }
 }
