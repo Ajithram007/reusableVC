@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
-
+  s.platform = :ios
+  s.ios.deployment_target = '10.0'
   s.name         = "ReusableViewController"
   s.version      = "0.0.1"
   s.summary      = "ReusableViewController In which it can be integrated to pod to make build pipeline faster"
@@ -95,6 +96,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "ReusableViewController/**/*.{swift}"
   s.exclude_files = "Classes/Exclude"
+  s.swift_version = "4.0"
 
   # s.public_header_files = "Classes/**/*.h"
 
