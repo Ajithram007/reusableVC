@@ -7,26 +7,40 @@ provides-member:
 - ["22ReusableViewController06SamplebC0C", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "+"
 - "NSObject"
 - "SampleViewController"
 - "String"
+- !private "StringLiteralType"
 - !private "print"
 depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "print"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
 - ["s9EquatableP", ""]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "print"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["s8HashableP", ""]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "print"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "init"]
@@ -35,24 +49,62 @@ depends-member:
 - ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "print"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
 - ["22ReusableViewController06SamplebC0C", "String"]
 - ["22ReusableViewController06SamplebC0C", "deinit"]
 - ["22ReusableViewController06SamplebC0C", "init"]
 - !private ["22ReusableViewController06SamplebC0C", "print"]
 - ["22ReusableViewController06SamplebC0C", "test"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "s23BidirectionalCollectionP"
 - "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "s26RangeReplaceableCollectionP"
 - "22ReusableViewController06SamplebC0C"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
