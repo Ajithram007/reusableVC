@@ -4,11 +4,6 @@
 target 'ReusableViewController' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-    target 'ReusableViewController' do
-        inherit! :search_paths
-        #pod for testing
-    end
-
   # Pods for ReusableViewController
 
 end

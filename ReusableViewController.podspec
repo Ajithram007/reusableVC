@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ReusableViewController"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ReusableViewController."
+  s.summary      = "ReusableViewController In which it can be integrated to pod to make build pipeline faster"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  A much much longer description of MyFramework.
+  Creating a reusable framework,which helps to reduce build time and makes the development process faster.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ReusableViewController"
+  s.homepage     = "https://github.com/Ajithram007/reusableVC.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+   s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Ajithram M" => "" }
+  s.author             = { "Ajithram M" => "ajithramhacks@gmail.com" }
   # Or just: s.author    = "Ajithram M"
   # s.authors            = { "Ajithram M" => "" }
   # s.social_media_url   = "http://twitter.com/Ajithram M"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :git => "https://github.com/Ajithram007/reusableVC.git", :tag => "1.0.0" }
+  s.source = { :git => "https://github.com/Ajithram007/reusableVC.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
 
   #s.source_files  = 'Classes/*.{h,m,swift}'
 
-  s.source_files = "SampleViewController/.{h,m,swift}"
+  s.source_files = "ReusableViewController/.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
