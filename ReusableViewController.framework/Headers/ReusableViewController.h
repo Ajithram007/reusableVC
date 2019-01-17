@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double ReusableViewControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char ReusableViewControllerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ReusableViewController/PublicHeader.h>
-
-
