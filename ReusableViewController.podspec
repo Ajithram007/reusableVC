@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
 
   #s.source_files  = 'Classes/*.{h,m,swift}'
 
-  s.source_files = "ReusableViewController/**/*.{swift}"
+  s.source_files = "ReusableViewController/**/*.{swift,storyboard}"
   s.exclude_files = "Classes/Exclude"
   s.swift_version = "4.0"
 
