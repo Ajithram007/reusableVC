@@ -8,7 +8,7 @@
 
 import  Foundation
 open class SampleViewController: NSObject {
-    class func test(msg:String){
+    open class func test(msg:String){
         print(msg + "hello from mars!")
     }
 }
