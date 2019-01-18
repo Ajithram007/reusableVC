@@ -23,8 +23,8 @@
 /* Begin PBXBuildFile section */
 		F174E56821DF3704006A7635 /* ReusableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F174E56621DF3704006A7635 /* ReusableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F174E56F21DF3739006A7635 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F174E56E21DF3739006A7635 /* SampleViewController.swift */; };
-		F1F989A021F08B5D00744972 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F9899F21F08B5D00744972 /* SignInViewController.swift */; };
-		F1F989A221F08BB400744972 /* InitialScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F989A121F08BB400744972 /* InitialScreen.storyboard */; };
+		F1F989D121F1A1AF00744972 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F989D021F1A1AF00744972 /* SignInView.swift */; };
+		F1F989D321F1A3A600744972 /* SignInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F989D221F1A3A600744972 /* SignInView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		F174E56621DF3704006A7635 /* ReusableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReusableViewController.h; sourceTree = "<group>"; };
 		F174E56721DF3704006A7635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F174E56E21DF3739006A7635 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
-		F1F9899F21F08B5D00744972 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		F1F989A121F08BB400744972 /* InitialScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InitialScreen.storyboard; sourceTree = "<group>"; };
+		F1F989D021F1A1AF00744972 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F1F989D221F1A3A600744972 /* SignInView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 				F174E56621DF3704006A7635 /* ReusableViewController.h */,
 				F174E56721DF3704006A7635 /* Info.plist */,
 				F174E56E21DF3739006A7635 /* SampleViewController.swift */,
-				F1F9899F21F08B5D00744972 /* SignInViewController.swift */,
-				F1F989A121F08BB400744972 /* InitialScreen.storyboard */,
+				F1F989D021F1A1AF00744972 /* SignInView.swift */,
+				F1F989D221F1A3A600744972 /* SignInView.xib */,
 			);
 			path = ReusableViewController;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F989A221F08BB400744972 /* InitialScreen.storyboard in Resources */,
+				F1F989D321F1A3A600744972 /* SignInView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F989A021F08B5D00744972 /* SignInViewController.swift in Sources */,
 				F174E56F21DF3739006A7635 /* SampleViewController.swift in Sources */,
+				F1F989D121F1A1AF00744972 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
