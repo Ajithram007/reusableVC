@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "a13c438f2655c657a69eca07444e7297"
-build_time: [1547792048, 59257000]
+build_time: [1547794153, 380959000]
 inputs:
   "/Users/am7/Documents/ReusableViewController/ReusableViewController/SampleViewController.swift": [1547710246, 0]
-  "/Users/am7/Documents/ReusableViewController/ReusableViewController/SignInView.swift": [1547792047, 0]
+  "/Users/am7/Documents/ReusableViewController/ReusableViewController/SignInView.swift": [1547794152, 0]
