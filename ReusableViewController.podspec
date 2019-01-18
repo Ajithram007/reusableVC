@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
-  #
+  #,storyboard
 
   s.source = { :git => "https://github.com/Ajithram007/reusableVC.git", :tag => "#{s.version}" }
 
@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   #s.source_files  = 'Classes/*.{h,m,swift}'
 
   #s.source_files = "ReusableViewController/**/*.{swift}"
-  s.source_files = "ReusableViewController/*.{swift}"
+  s.source_files = "ReusableViewController/*.{swift,h,m,xib,storyboard}"
   s.exclude_files = "Classes/Exclude"
   s.swift_version = "4.0"
 
