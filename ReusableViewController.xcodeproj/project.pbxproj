@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		F172B5E922008138005D5C5B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F172B5E822008138005D5C5B /* Storyboard.storyboard */; };
 		F174E56821DF3704006A7635 /* ReusableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F174E56621DF3704006A7635 /* ReusableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F174E56F21DF3739006A7635 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F174E56E21DF3739006A7635 /* SampleViewController.swift */; };
 		F1F989D121F1A1AF00744972 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F989D021F1A1AF00744972 /* SignInView.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F172B5E822008138005D5C5B /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		F174E56321DF3704006A7635 /* ReusableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReusableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F174E56621DF3704006A7635 /* ReusableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReusableViewController.h; sourceTree = "<group>"; };
 		F174E56721DF3704006A7635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				F174E56E21DF3739006A7635 /* SampleViewController.swift */,
 				F1F989D021F1A1AF00744972 /* SignInView.swift */,
 				F1F989D221F1A3A600744972 /* SignInView.xib */,
+				F172B5E822008138005D5C5B /* Storyboard.storyboard */,
 			);
 			path = ReusableViewController;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1F989D321F1A3A600744972 /* SignInView.xib in Resources */,
+				F172B5E922008138005D5C5B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
