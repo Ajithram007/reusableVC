@@ -96,6 +96,9 @@ Pod::Spec.new do |s|
 
   #s.source_files = "ReusableViewController/**/*.{swift}"
   s.source_files = "ReusableViewController/*.{swift,h,m,xib,storyboard}"
+  s.resource_bundles = {
+    'MyFramework' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  }
   s.exclude_files = "Classes/Exclude"
   s.swift_version = "4.0"
 
